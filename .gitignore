@@ -1,0 +1,27 @@
+.idea/*
+*.iml
+*.ipr
+*.iws
+
+*.egg-info
+*.pot
+*.py[co]
+__pycache__
+MANIFEST
+dist/
+docs/_build/
+docs/locale/
+node_modules/
+tests/coverage_html/
+tests/.coverage
+build/
+tests/report/
+venv/
+.hg/
+packages
+syntax: glob
+*.log
+*.log.[0-9]
+
+#OSX grubby prints
+.DS_Store
