@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+    python-dev:
+        build: .
+        volumes:
+            - .:/usr/src/app
+        ports:
+            - 5000:80
+        container_name: python_dev
